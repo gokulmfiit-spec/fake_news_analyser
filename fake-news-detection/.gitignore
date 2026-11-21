@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.sqlite3
+.env
+
+# Node
+node_modules/
+dist/
+.env
+
+# AI model artifact (regenerate via train_baseline.py)
+backend/ai_engine/trained_model.joblib
+
+# OS
+.DS_Store
